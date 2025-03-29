@@ -27,8 +27,8 @@ body::before {
 }
 
 .container {
-    width: 80%;
-    height: 80%;
+    width: 95%;
+    height: 95%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -62,10 +62,18 @@ body::before {
     font-weight: 700;
     border: none;
     margin-top: 2rem;
+    cursor: pointer;
+}
+
+.container__botao:hover {
+background-color: #1354A5;
+transform: scale(1.05);
+
 }
 
 .container__texto {
     margin: 16px 0 16px 0;
+    margin: auto;
 }
 
 .container__texto-azul {
@@ -104,6 +112,7 @@ button {
 .texto__paragrafo {
     font-size: 32px;
     font-weight: 400;
+    padding: 10px;
 }
 
 button:disabled {
